@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   /* border: 1px solid blue; */
+ 
+   font-size: 20px;
+
+}
+.cla{
+    margin-left: 31%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap:19px;
+}
+
+.con{
+    padding-left: 25%;
+}
+.login2{
+    padding: 5px 45px;
+    border: none;
+    color: aliceblue;
+    background-color: blue;
+    cursor: pointer;
+}
+h1{
+    color: blue;
+    margin-left: 8px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.central{
+    margin-left: 6px;
+    border: 1px solid blue;
+}
+.texto-primary{
+    padding: 6% 0 0 10px;
+    color: rgb(41, 91, 74);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.parrafo-text__none{
+    background-color: rgb(95, 207, 170);
+    margin-right: 73.9%;
+    margin-left: -2px;
+   
+}
+h2{
+    font-size: 50px;
+    color: rgb(20, 20, 93);
+  
+    margin: -5px 0;
+}
+b{
+    color: rgb(103, 76, 211);
+}
+.parrafo-text{
+    font-size: 18px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8px;
+}
+.btn-elev, .btn-elev-tue{
+    border: none;
+    padding: 6px 40px;
+    color: beige;
+    border-radius: 10px 10px 0 0;
+  
+
+}
+.btn-elev-tue{
+    color: rgb(103, 76, 211);
+    
+}
+.btn-elev-tue{
+    transition: background-color 1s ease, color 1s ease;
+}
+.btn-elev{
+    margin-left: 30px;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.btn-elev:hover{
+ color: rgb(103, 76, 211);
+ background-color: rgb(255, 255, 255); 
+}
+.btn-elev-tue:hover{
+    background-color: rgb(103, 76, 211);
+    color: aliceblue;
+}
+img{
+    height: 500px;
+    width: 950px;
+    border-radius: 10px;
+  float: right;
+ margin-top: 50px;
+ margin-right: 50px;
+}
+.ultimatu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 88px;
+    margin-left: 60px;
+  
+}
+.todo{
+
+    background-color: rgba(220, 225, 228, 0.564);
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 88px;
+    margin-left: 60px;
+}
+.parrfo34{
+    margin-left: 6%;
+    color: rgb(100, 95, 95);
+  
+}
+.parrfo3{
+    color: rgb(100, 95, 95);
+}
+.parrfo32{
+    margin-left: 15%;
+    color: rgb(100, 95, 95);
+}
